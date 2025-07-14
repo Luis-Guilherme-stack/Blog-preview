@@ -24,6 +24,7 @@ p {
     border-radius: 0.8rem;
     border: solid 1px hsl(0, 0%, 7%);
     box-shadow: 8px 10px hsl(0, 0%, 7%);
+    max-width: 20rem
 }
 
 .img {
@@ -72,10 +73,3 @@ p {
 .author {
     font-weight: 800;
 }
-
-@media(max-width: 1200px){
-    .card{
-        max-width: 20rem;
-    }
-}
-
