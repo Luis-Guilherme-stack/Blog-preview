@@ -24,7 +24,6 @@ p {
     border-radius: 0.8rem;
     border: solid 1px hsl(0, 0%, 7%);
     box-shadow: 8px 10px hsl(0, 0%, 7%);
-    max-width: 35rem;
 }
 
 .img {
@@ -49,7 +48,8 @@ p {
 
 .title:hover{
     color: var(--yellow);
-    transition: 0.15s
+    transition: 0.15s;
+    cursor: pointer
 }
 
 .text {
