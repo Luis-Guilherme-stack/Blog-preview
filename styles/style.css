@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    --yellow: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+}
+
+p {
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    border: solid 1px hsl(0, 0%, 7%);
+    box-shadow: 8px 10px hsl(0, 0%, 7%);
+    max-width: 35rem;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.8rem;
+}
+
+.description-container {
+    width: 100%;
+}
+
+.status {
+    font-family: Figtree, Arial;
+    font-weight: 800;
+    background-color: var(--yellow);
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: hsl(0, 0%, 42%)
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar{
+    width: 3rem;
+}
+
+.author {
+    font-weight: 800;
+}
+
+@media(max-width: 1200px){
+    .card{
+        max-width: 25rem;
+    }
+}
+
