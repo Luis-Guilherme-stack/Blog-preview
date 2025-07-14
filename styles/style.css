@@ -48,7 +48,8 @@ p {
 }
 
 .title:hover{
-    color: var(--yellow)
+    color: var(--yellow);
+    transition: 0.15s
 }
 
 .text {
